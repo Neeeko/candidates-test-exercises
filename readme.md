@@ -1,3 +1,11 @@
+### Micro service de fidélité.
+## Lancer le server:
+``` bash
+> npm install
+> gulp serve
+```
+
+## A faire
 Développer un micro service de fidélité.
 En utilisant express et une base de donnée mongo.
 
