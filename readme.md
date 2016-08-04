@@ -5,6 +5,8 @@
 > gulp serve
 ```
 
+Ouvrir [http://localhost:3000/hello/robert/32](http://localhost:3000/hello/robert/32)
+
 ## A faire
 Développer un micro service de fidélité.
 En utilisant express et une base de donnée mongo.
