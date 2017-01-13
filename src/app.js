@@ -34,7 +34,7 @@ const start = co.wrap(_start);
 
 if (!module.parent) {
   start()
-  .catch(err => {
+  .catch((err) => {
     // eslint-disable-next-line no-console
     console.log(err);
     process.exit(1);
