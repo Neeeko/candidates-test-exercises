@@ -1,3 +1,5 @@
+'use strict';
+
 const http = require('http');
 const co = require('co');
 const express = require('express');
@@ -33,6 +35,7 @@ const start = co.wrap(_start);
 if (!module.parent) {
   start()
   .catch(err => {
+    // eslint-disable-next-line no-console
     console.log(err);
     process.exit(1);
   });

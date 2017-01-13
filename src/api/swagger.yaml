@@ -3,13 +3,13 @@ swagger: '2.0'
 # This is your document metadata
 info:
   version: "1.0.0"
-  title: Stargate API
+  title: Test Exercise API
   description:
-    List of available APIs for the [Chauffeur-Privé platform](https://www.chauffeur-prive.com)
+    Fidelity micro-service.
     All routes require a [JSON Web Token](https://jwt.io/) authentication to work.
     All routes require app_platform and app_version headers to work.
 basePath: /
-host: api.chauffeur-prive.com
+host: localhost
 schemes:
   - http
   - https

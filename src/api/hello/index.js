@@ -1,3 +1,5 @@
+'use strict';
+
 const wrap = require('co-express');
 const controller = require('./hello');
 

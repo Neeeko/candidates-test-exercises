@@ -1,12 +1,12 @@
 {
-  "name": "stargate",
-  "version": "0.3.2",
+  "name": "test-exercise",
+  "version": "1.0.0",
   "engines": {
     "node": "6.2.0"
   },
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "gulp serve",
     "pretest": "eslint .",
     "test": "istanbul cover _mocha",
     "mocha": "_mocha",
@@ -14,10 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/transcovo/stargate.git",
-    "private": true
+    "url": "git+https://github.com/transcovo/candidates-test-exercises"
   },
-  "homepage": "https://github.com/transcovo/stargate#readme",
+  "homepage": "https://github.com/transcovo/candidates-test-exercises/blob/master/readme.md",
   "dependencies": {
     "co": "4.6.0",
     "co-express": "1.2.1",

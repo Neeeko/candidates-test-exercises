@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Promisify a callback style function.
  *
